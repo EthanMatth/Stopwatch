@@ -1,4 +1,4 @@
-module DFF0(data_in,clock,reset, data_out);
+module DFF(data_in, clock, reset, data_out);
 input data_in;
 input clock,reset;
 

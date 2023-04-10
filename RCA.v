@@ -1,8 +1,10 @@
-module RCA(A, inc, S, C);
+module RCA(A, inc, S);
     input [3:0] A;
     input inc;
 
-    output [3:0] S, C;
+    output [3:0] S;
+
+    wire [3:0] C;
 
     HA
     h0 (A[0], inc, S[0], C[0]);
