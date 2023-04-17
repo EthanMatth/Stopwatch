@@ -1,7 +1,7 @@
 module TFF0 (
-data  , // Data Input
+data  , // Data Input = 1
 clk   , // Clock Input
-reset , // Reset input
+reset , // Reset input = 0
 q       // Q output
 );
 //-----------Input Ports---------------

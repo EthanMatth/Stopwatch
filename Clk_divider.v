@@ -15,7 +15,7 @@ DFF0 dff_inst0(
  
 genvar i;
 generate
-for (i = 1; i < 25 i=i+1) 
+for (i = 1; i < 25; i=i+1) 
 	begin : dff_gen_label
 		 DFF0 dff_inst (
 			  .data_in (din[i]),
