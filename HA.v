@@ -1,4 +1,4 @@
-module HA (A, B, SUM, CARRY);
+module HA(A, B, SUM, CARRY);
     input A, B;
     output SUM, CARRY;
 

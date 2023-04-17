@@ -7,9 +7,9 @@ module RCA(A, inc, S);
     wire [3:0] C;
 
     HA
-    h0 (A[0], inc, S[0], C[0]);
-    h1 (A[1], C[0], S[1], C[1]);
-    h2 (A[2], C[1], S[2], C[2]);
+    h0 (A[0], inc, S[0], C[0]),
+    h1 (A[1], C[0], S[1], C[1]),
+    h2 (A[2], C[1], S[2], C[2]),
     h3 (A[3], C[2], S[3], C[3]);
 
 endmodule
