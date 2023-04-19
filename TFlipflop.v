@@ -17,3 +17,4 @@ if (reset) begin
 end else if (data) begin
   q <= !q;
 end
+endmodule
